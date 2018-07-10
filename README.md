@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # React Native Code Puzzle
-This mobile app willGenerate shapes using your semi-natural language
-=======
-# React-Native Code-Puzzles
 This is a mobile application allows a user to generate different shapes by using them natural language.
 
 ## Getting Started
@@ -67,4 +63,3 @@ Draw an isosceles triangle with a height of 200 and a width of 100
 
 # Screenshot
 ![screenshot_1531246483](https://user-images.githubusercontent.com/37333516/42529409-06365ac2-849c-11e8-8c9c-9bdd341e49f8.png)
->>>>>>> 55025f163ac4b2fc7f2f6f5fee505f2e0f212153
