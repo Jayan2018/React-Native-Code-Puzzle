@@ -9,7 +9,7 @@ export default class App extends React.Component {
         super(props);
         this.state = {
             isLoading: false,
-            text: 'Draw a Oval with a width of 200 and a height of 150',
+            text: '',
             shape: null,
         }
     };
@@ -45,7 +45,6 @@ export default class App extends React.Component {
                             onPress={() => this.handleDrawButtonClick()}
                             title="Draw"
                             color={'#ff5941'}
-                            accessibilityLabel="Learn more about this purple button"
                         />
                     </View>
                     <View style={{marginTop: 10}}>

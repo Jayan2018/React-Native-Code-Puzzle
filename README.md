@@ -1,2 +1,2 @@
-#React Native Code Puzzle
-##Generate shapes using natural language
+# React Native Code Puzzle
+This mobile app willGenerate shapes using your semi-natural language
