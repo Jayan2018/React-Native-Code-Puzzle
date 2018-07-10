@@ -60,3 +60,6 @@ Draw an isosceles triangle with a height of 200 and a width of 100
 -	[x]	Octagon 
 -	[x]	Circle 
 -	[x]	Oval
+
+# Screenshot
+![screenshot_1531246483](https://user-images.githubusercontent.com/37333516/42529409-06365ac2-849c-11e8-8c9c-9bdd341e49f8.png)
