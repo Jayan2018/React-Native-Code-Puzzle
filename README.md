@@ -1,2 +1,2 @@
-#React Native Code Puzzle
-##Generate shapes using natural language
+# React-Native Code-Puzzles
+Generate shapes using your semi-natural language
