@@ -1,5 +1,5 @@
 # React Native Code Puzzle
-This is a mobile application allows a user to generate different shapes by using them natural language.
+This mobile application will generate different shapes by using users natural language.
 
 ## Getting Started
 This code will run using Expo without rebuilding on  Android or IOS
