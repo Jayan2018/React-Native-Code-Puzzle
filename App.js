@@ -61,6 +61,10 @@ export default class App extends React.Component {
         );
     }
 
+    /**
+     * Draw shapes based on user input
+     * @returns {*}
+     */
     renderShape() {
         const shape = this.state.shape;
         switch (shape.id) {

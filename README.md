@@ -10,8 +10,8 @@ Use Download or Clone with HTTPS
 https://github.com/Jayan2018/React-Native-Code-Puzzle.git
 ```
 
-### Run the appilication:
-Open project in react native compatible IDE
+### Run the application:
+Open project in react native compatible IDE.
 Some basic commands to use in Command Prompt or Terminal
 ```
 yarn start
@@ -19,12 +19,12 @@ yarn start
 Starts the development server so you can open your app in the Expo app on your phone.
 
 ```
-  yarn run ios
+yarn run ios
 ```
 Starts the development server and loads your app in an iOS simulator. (Mac only, requires Xcode)
 
 ```
-  yarn run android
+yarn run android
 ```    
 Starts the development server and loads your app on a connected Android device or emulator. (Requires Android build tools)
 

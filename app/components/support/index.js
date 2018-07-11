@@ -1,6 +1,9 @@
 import React from 'react';
 import {View, StyleSheet} from "react-native";
 
+/**
+ * Triangle to draw other shapes
+ */
 export default SupportTriangle = (props) => (
     <View style={[styles.triangle, props.style]}/>
 );

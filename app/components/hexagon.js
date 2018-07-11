@@ -1,6 +1,9 @@
 import React from 'react';
 import {View} from "react-native";
 
+/**
+ * Create Hexagon shape
+ */
 export default HexagonView = (props) => (
     <View style={getHexagonStyle(props)}>
         <View style={getHexagonInnerStyle(props)}/>

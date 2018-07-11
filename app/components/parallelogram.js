@@ -2,6 +2,9 @@ import React from 'react';
 import {View} from "react-native";
 import TriangleView from "./support";
 
+/**
+ * Create Parallelogram shape
+ */
 export default ParallelogramView = (props) => (
     <View style={getParallelogramStyle(props)}>
         <TriangleView style={getParallelogramRightStyle(props)}/>

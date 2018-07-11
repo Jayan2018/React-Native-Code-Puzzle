@@ -1,6 +1,9 @@
 import React from 'react';
 import {StyleSheet, View} from "react-native";
 
+/**
+ * Create Octagon shape
+ */
 export default OctagonView = (props) => (
     <View style={styles.octagon}>
         <View style={[styles.octagonUp, getOctagonBarStyle(props)]}/>

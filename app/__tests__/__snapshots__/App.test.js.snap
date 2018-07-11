@@ -5,103 +5,223 @@ exports[`renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
+      "backgroundColor": "#FFF",
       "flex": 1,
     }
   }
 >
   <View
     style={
+      Array [
+        Object {
+          "backgroundColor": "#476DC5",
+          "borderBottomColor": "#f2f2f2",
+          "borderBottomWidth": 1,
+          "height": 70,
+          "padding": 15,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff5941",
+          "height": 80,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {},
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "color": "#fff",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        Code Puzzle
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
       Object {
         "alignItems": "center",
-        "flexDirection": "row",
-        "marginTop": 20,
+        "marginTop": 10,
         "padding": 10,
       }
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      onChangeText={[Function]}
-      style={
-        Object {
-          "borderColor": "gray",
-          "borderWidth": 1,
-          "height": 40,
-          "marginRight": 5,
-          "width": "60%",
-        }
-      }
-      value="Draw a pentagon with a width of 150 and a height of 50"
-    />
     <View
-      accessibilityComponentType="button"
-      accessibilityLabel="Learn more about this purple button"
-      accessibilityTraits={
-        Array [
-          "button",
-        ]
-      }
-      accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
-      isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "opacity": 1,
+          "backgroundColor": "#c1c1c1",
+          "padding": 10,
         }
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
-      <View
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
         style={
-          Array [
-            Object {},
-          ]
+          Object {
+            "textAlign": "center",
+          }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={undefined}
-          ellipsizeMode="tail"
+        Hint:
+         Draw a(n) &lt;shape&gt; with a(n) &lt;measurement&gt; of &lt;amount&gt; (and a(n) &lt;measurement&gt; of &lt;amount&gt;) 
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 20,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderColor": "gray",
+            "borderWidth": 1,
+            "height": 40,
+            "marginRight": 5,
+            "padding": 10,
+            "width": "60%",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        accessibilityComponentType="button"
+        accessibilityLabel={undefined}
+        accessibilityTraits={
+          Array [
+            "button",
+          ]
+        }
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
           style={
             Array [
-              Object {
-                "color": "#007AFF",
-                "fontSize": 18,
-                "padding": 8,
-                "textAlign": "center",
-              },
-              Object {
-                "color": "#841584",
-              },
+              Object {},
             ]
           }
         >
-          Draw
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={undefined}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#ff5941",
+                },
+              ]
+            }
+          >
+            Draw
+          </Text>
+        </View>
       </View>
     </View>
-  </View>
-  <View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
     >
-      Generate shapes with your natural language
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#ff5941",
+          }
+        }
+      >
+        Generate shapes with your natural language
+      </Text>
+    </View>
   </View>
 </View>
 `;

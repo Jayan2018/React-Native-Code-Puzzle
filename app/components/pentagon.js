@@ -1,6 +1,9 @@
 import React from 'react';
 import {View} from "react-native";
 
+/**
+ * Create Pentagon shape
+ */
 export default PentagonView = (props) => (
     <View style={getPentagonStyle(props)}>
         <View style={getPentagonInnerStyle(props)}/>

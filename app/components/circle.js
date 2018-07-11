@@ -1,6 +1,9 @@
 import React from 'react';
 import {StyleSheet, View} from "react-native";
 
+/**
+ * Create circle shape
+ */
 export default CircleView = (props) => (
     <View style={getStyle(props)}/>
 );
