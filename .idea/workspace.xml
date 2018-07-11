@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd06236-bf0f-44d7-aaf7-640d7b72ccb2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/circle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/hexagon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/hexagon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/octagon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/octagon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/oval.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/oval.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/parallelogram.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/parallelogram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/pentagon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/pentagon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/square.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/square.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/support/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/support/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/triangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/triangle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="156">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="3" lean-forward="true" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -103,18 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hexagon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/hexagon.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="octagon.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/octagon.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,7 +148,6 @@
         <option value="$PROJECT_DIR$/app/components/index.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/app/functions/index.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/components/circle.js" />
         <option value="$PROJECT_DIR$/app/components/octagon.js" />
@@ -168,6 +158,7 @@
         <option value="$PROJECT_DIR$/app/components/square.js" />
         <option value="$PROJECT_DIR$/app/components/triangle.js" />
         <option value="$PROJECT_DIR$/app/components/support/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -204,6 +195,11 @@
             <path>
               <item name="code_puzzle" type="b2602c69:ProjectViewProjectNode" />
               <item name="code_puzzle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code_puzzle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code_puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +256,7 @@
       <updated>1531190762003</updated>
       <workItem from="1531190763646" duration="50276000" />
       <workItem from="1531281105808" duration="3221000" />
-      <workItem from="1531286126839" duration="191000" />
+      <workItem from="1531286126839" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -282,7 +278,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53688000" />
+    <option name="totallyTimeSpent" value="54569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -296,7 +292,7 @@
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49969825" weight="0.58914727" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49909475" weight="0.52380955" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49909475" weight="0.52311164" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="1" sideWeight="0.5005537" side_tool="true" weight="0.24984913" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,6 +320,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -331,6 +330,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1664">
           <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,13 +475,6 @@
     <entry file="file://$PROJECT_DIR$/.expo/settings.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/circle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -574,8 +569,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="3" lean-forward="true" selection-end-line="83" />
         </state>
       </provider>
     </entry>

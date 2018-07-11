@@ -4,6 +4,12 @@ This mobile application will generate different shapes by using users natural la
 ## Getting Started
 This code will run using Expo without rebuilding on  Android or IOS
 
+### Access without download in local
+This app was built using [Expo Snack](https://snack.expo.io/SJq_NzXQX)
+```
+https://snack.expo.io/SJq_NzXQX
+```
+
 ### Download code:
 Use Download or Clone with HTTPS
 ```
