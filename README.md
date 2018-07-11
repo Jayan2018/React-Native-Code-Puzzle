@@ -14,21 +14,29 @@ https://github.com/Jayan2018/React-Native-Code-Puzzle.git
 Open project in react native compatible IDE.
 Some basic commands to use in Command Prompt or Terminal
 ```
+npm start
+#or
 yarn start
 ```    
 Starts the development server so you can open your app in the Expo app on your phone.
 
 ```
+npm run ios
+#or
 yarn run ios
 ```
 Starts the development server and loads your app in an iOS simulator. (Mac only, requires Xcode)
 
 ```
+npm run android
+#or
 yarn run android
 ```    
 Starts the development server and loads your app on a connected Android device or emulator. (Requires Android build tools)
 
 ```
+npm test
+#or
 yarn test
 ```
 Starts the test runner
@@ -39,6 +47,10 @@ Starts the test runner
 Draw a(n) <shape> with a(n) <measurement> of <amount> (and a(n) <measurement> of <amount>)
 ```
 
+### Tests
+This project is enabled jest for tests.
+Created test files is located in directory app > __tests__
+
 ### Examples
 ```
 Draw a square with a side length of 200 
@@ -48,7 +60,7 @@ Draw an isosceles triangle with a height of 200 and a width of 100
 ```
 
 ## Supporting shapes
--	[x] 	Isosceles Triangle 	
+-	[x] Isosceles Triangle
 -	[x]	Square 
 -	[x]	Scalene Triangle 	
 -	[x]	Parallelogram 
