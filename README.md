@@ -41,15 +41,15 @@ yarn test
 ```
 Starts the test runner
 
+### Tests:
+This project is enabled jest for tests.
+Created test files is located at ```app > __tests__```
+
 ## Hint & Example
 ### Hint to get a best result
 ```
 Draw a(n) <shape> with a(n) <measurement> of <amount> (and a(n) <measurement> of <amount>)
 ```
-
-### Tests
-This project is enabled jest for tests.
-Created test files is located in directory app > __tests__
 
 ### Examples
 ```
