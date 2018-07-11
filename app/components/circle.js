@@ -4,7 +4,7 @@ import {StyleSheet, View} from "react-native";
 /**
  * Create circle shape
  */
-export default CircleView = (props) => (
+const CircleView = (props) => (
     <View style={getStyle(props)}/>
 );
 
@@ -16,3 +16,5 @@ function getStyle(props) {
         backgroundColor: 'red'
     }
 }
+
+export default CircleView;

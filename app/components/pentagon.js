@@ -4,7 +4,7 @@ import {View} from "react-native";
 /**
  * Create Pentagon shape
  */
-export default PentagonView = (props) => (
+const PentagonView = (props) => (
     <View style={getPentagonStyle(props)}>
         <View style={getPentagonInnerStyle(props)}/>
         <View style={getPentagonBeforeStyle(props)}/>
@@ -52,3 +52,5 @@ function getPentagonBeforeStyle(props) {
         borderTopColor: 'transparent',
     }
 }
+
+export default PentagonView;

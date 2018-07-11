@@ -4,7 +4,7 @@ import {View} from "react-native";
 /**
  * Create Hexagon shape
  */
-export default HexagonView = (props) => (
+const HexagonView = (props) => (
     <View style={getHexagonStyle(props)}>
         <View style={getHexagonInnerStyle(props)}/>
         <View style={getHexagonBeforeStyle(props)}/>
@@ -61,4 +61,6 @@ function getHexagonAfterStyle(props) {
         borderTopWidth: props.height ? props.height / 2 : 50,
         borderTopColor: 'red'
     }
-}
+};
+
+export default HexagonView;

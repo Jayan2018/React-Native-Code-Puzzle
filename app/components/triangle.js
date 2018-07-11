@@ -4,7 +4,7 @@ import {View, StyleSheet} from "react-native";
 /**
  * Create Triangle shape
  */
-export default TriangleView = (props) => (
+const TriangleView = (props) => (
 
     <View style={
         props.prefix === 'isosceles' ? getIsoscelesStyle(props)
@@ -58,3 +58,5 @@ function getEquilateralStyle(props) {
         borderBottomColor: 'red'
     }
 }
+
+export default TriangleView;

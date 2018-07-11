@@ -5,7 +5,7 @@ import TriangleView from "./support";
 /**
  * Create Parallelogram shape
  */
-export default ParallelogramView = (props) => (
+const ParallelogramView = (props) => (
     <View style={getParallelogramStyle(props)}>
         <TriangleView style={getParallelogramRightStyle(props)}/>
         <View style={getParallelogramInnerStyle(props)}/>
@@ -55,3 +55,5 @@ function getParallelogramLeftStyle(props) {
         position: 'absolute'
     }
 }
+
+export default ParallelogramView;

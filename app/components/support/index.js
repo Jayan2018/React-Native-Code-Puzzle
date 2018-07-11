@@ -4,7 +4,7 @@ import {View, StyleSheet} from "react-native";
 /**
  * Triangle to draw other shapes
  */
-export default SupportTriangle = (props) => (
+const SupportTriangle = (props) => (
     <View style={[styles.triangle, props.style]}/>
 );
 
@@ -22,3 +22,5 @@ const styles = StyleSheet.create({
         borderBottomColor: 'red'
     }
 });
+
+export default SupportTriangle;

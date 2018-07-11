@@ -4,7 +4,7 @@ import Svg, {Ellipse,} from 'react-native-svg';
 /**
  * Create Oval shape
  */
-export default OvalView = (props) => (
+const OvalView = (props) => (
     <Svg height={props.height}
          width={props.width}>
         <Ellipse cx={props.width / 2}
@@ -14,3 +14,5 @@ export default OvalView = (props) => (
                  fill="red"/>
     </Svg>
 );
+
+export default OvalView;

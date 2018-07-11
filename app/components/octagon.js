@@ -4,7 +4,7 @@ import {StyleSheet, View} from "react-native";
 /**
  * Create Octagon shape
  */
-export default OctagonView = (props) => (
+const OctagonView = (props) => (
     <View style={styles.octagon}>
         <View style={[styles.octagonUp, getOctagonBarStyle(props)]}/>
         <View style={[styles.octagonFlat, getOctagonBarStyle(props)]}/>
@@ -49,3 +49,5 @@ const styles = StyleSheet.create({
         ]
     }
 });
+
+export default OctagonView;
